@@ -1,0 +1,71 @@
+.menubar {
+    background-color: floralwhite;
+    overflow: hidden;
+}
+
+/* styling of links */
+.menubar a {
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 50px 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/* colour when links are hovered */
+.menubar a:hover {
+    background-color: darkred;
+    color: floralwhite;
+}
+
+/* colour to current link */
+.menubar a:active {
+    background-color: darkred;
+    color: floralwhite;
+}
+
+@media screen and (max-width: 600px) {
+    .menubar h1,
+  .menubar a {
+      display: block;
+      float: none; 
+    }
+
+}
+
+
+/* rest of the page */
+
+h1{
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 30px;
+    color: darkred;
+}
+
+
+body{
+    background-color: darkred;
+    background-image: url(stars.png)
+}
+
+footer{
+    padding: 5px;
+    background-color: darkred;
+    color: floralwhite;
+    text-align: center;
+    }
+
+.mission{
+    text-align: center;
+    color: darkred;;
+    background-color: palegoldenrod;
+    margin-top: 250px;
+    margin-bottom: 300px;
+    font-size: 25px;
+}
+
+    
