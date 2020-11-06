@@ -1,0 +1,136 @@
+.menubar {
+    background-color: floralwhite;
+    overflow: hidden;
+}
+
+/* styling of links */
+.menubar a {
+    float: right;
+    text-align: center;
+    padding: 60px 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/* colour when links are hovered */
+.menubar a:hover {
+    background-color: darkred;
+    color: floralwhite;
+}
+
+/* colour to current link */
+.menubar a.active {
+    background-color: darkred;
+    color: floralwhite;
+}
+
+.Juleglede a {
+    float: left;
+    color: darkred;
+    font-size: 40px;
+    padding: 51px 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .menubar a {
+      display: block;
+      float: none; }
+}
+
+/* resten av siden */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+h1{
+    text-align: center;
+    color: floralwhite;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: floralwhite;
+    font-size: 17px;
+}
+
+.colonne {
+    float:left;
+    width: 40%;
+    padding: 5px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+}
+
+label{
+    color: floralwhite;
+}
+
+input [type=submit] {
+    background-color: red;
+    color: floralwhite;
+    padding: 12px 20px;
+    border:30px;
+    cursor: pointer;
+}
+
+input [type=submit]:hover {
+    background-color: darkblue;
+}
+
+.contact form {
+    border-radius: 5px;
+    background-color: darkred;
+    padding: 20px;
+}
+
+.contact form {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+footer{
+    padding: 5px;
+    background-color: darkred;
+    color: floralwhite;
+    text-align: center;
+    }
+
+@media screen and ( max-width: 600px ){
+    .contact form, input [type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .colonne {
+        width: 100%;
+        padding-left: 0px;
+    }
+}

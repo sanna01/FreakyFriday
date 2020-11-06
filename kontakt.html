@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Juleglede.no/kontakt</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="kontakt.css">
+    <link href="Icon.jpg" rel="icon">
+</head>
+    <body>
+        
+        <div class = "menubar">
+            <div class="Juleglede">
+            <a href="index.html">JULEGLEDE</a>
+            </div>
+            <a class="active" href= "kontakt.html">Kontakt</a>
+            <a href = "Kalender.html"> Juleverksteder</a>
+            <a href= "OmOss.html">Om oss</a>
+        </div>
+        
+        <h1> 
+            Kontakt oss
+        </h1>
+        <p>
+          Her kan du melde deg på et av våre juleverksteder, eller sende oss en melding.
+            <br>
+            Husk at vi på grunn av smittevern har begrenset med plasser. Skriv hvor mange plasser du ønsker i meldingsboksen. 
+            <br>
+        (max 3 plasser per. familie)
+        
+        </p>
+    <div class="row">
+        <div class="colonne">
+          <picture> 
+              <img src=letters.jpg style="width: 100%">
+              <a href="https://www.potterybarn.com/products/holiday-santa-mailbox/"> Bilde er fra her</a>
+            
+            </picture>
+        </div>
+        
+        <div class="contact form">
+            <form action="/action_page.php">
+                <label for="navn">Navn</label>
+                <input type="text" id= "navn" name="fullname"
+                       placeholder="Navnet ditt">
+        
+                <label for="mail">E-Mail</label>
+                <input type="text" id="mail" name="email"
+                       placeholder="Mailadressen din">
+                
+                <label for="juleverksted">Velg juleverksted</label>
+                <select id="juleverksted" name="juleverksted">
+                    <option value="velg en">Velg en</option>
+                    <option value="Melding">Kun melding eller spørsmål</option>
+                    <option value="dato1">6. Desember</option>
+                    <option value="dato2">13. Desember</option>
+                    <option value="dato 3">20. Desember</option>
+                    </select>
+                
+                <label for= melding>Din melding </label>
+                <textarea id="melding" name="melding"
+                          placeholder= "Write your message here" >Skriv din melding her....</textarea>
+                <input type="submit" value="send inn"> 
+             </form>
+        </div>
+    </div>
+        
+    <footer>
+             <p>
+               tlf: 48 999 999 99 - - -  
+                Juleglede@email.com - - - 
+                Osloveien 11, 0010, Oslo 
+            </p>
+    </footer>
+    
+    </body>
+</html>
